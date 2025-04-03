@@ -1,0 +1,404 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: arial;
+}
+
+/* *********** amazon logo ************** */
+#navbar {
+    height: 60px;
+    background-color:#0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#nav-logo {
+    width: 100px;
+    height: 50px;
+}
+#logo {
+  background-image: url("amazon_logo.png");
+  height: 50px;
+  background-size: cover;
+  width: 100%;
+}
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/* ******************* Deliver to ******************** */
+.nav-address {
+    align-items: center;
+}
+#Deliver-to {
+    color: #CCCCCC;
+    margin-left: 15px;
+    font-size: 0.85rem;
+}
+#Pakistan {
+   font-size: 1rem;
+   margin-left: 3px;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* ****************** Search Box ************************ */
+.search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 469px;
+    height: 40px;
+    background-color: chartreuse;
+    border-radius: 4px;
+    
+}
+#All {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    padding-left: 5px;
+    border: none;
+    background-color: #f3f3f3;
+}
+.search-amazon {
+    width:100%;
+    font-size:1rem;
+    border: none;
+}
+#search-logo {
+    width: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(231, 169, 125);
+    font-size: 1.2 rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+
+/* **********************  Hello sign in and orders and returns ***********************  */
+.hello {
+    font-size: 0.7rem;
+}
+.account-lists {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.search:hover{
+    border: 2px solid orange;
+}
+
+/* **************************** Cart ********************* */
+.cart i {
+   font-size: 28px;
+}
+.cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* ********************** Panel ************************* */
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    height: 40px;
+}
+.paragraph p {
+    display: inline;
+    font-size: 0.85rem;
+    margin: 15px;
+    
+}
+.paragraph {
+    width: 70%;
+}
+.shop-deals {
+    font-size: 0.90rem;
+}
+
+/* ************************ hero section ******************* */
+.hero {
+    background-image: url("3.jpg");
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #0F1111;
+    font-size: 0.85rem;
+    height: 40px;
+    width: 70%;
+    margin: 25px;
+}
+
+/* ************************** Box ************************** */
+.shop-section{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box {
+    margin-top: 25px;
+    height: 420px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+.box1-image {
+    background-size: cover;
+    height: 300px;
+    background-repeat:no-repeat;
+    width: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content a {
+    color:#007185 ;
+}
+
+/* ************************* footer1************************* */
+footer{
+    margin-top: 15px;
+}
+.footer1 {
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.footer2 {
+    height: 300px;
+    background-color:#222f3d ;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer2 a {
+    color: white;
+    display: block;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #DDDDDD;
+}
+ul {
+    margin-top: 20px;
+}
+ 
+/* ************************ footer3 ******************************** */
+.footer3{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222f3d ;
+    border-top: 2px solid white;
+}
+.footer-logo {
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    background-size: cover;
+    width: 100px;
+}
+
+/* ****************** footer4 *********************** */
+.footer4 {
+    background-color: #121213 ;
+    height: 80px;
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.pages {
+      padding-top: 25px;
+}
+.pages a{
+    color: white;
+    text-decoration: none;
+   
+}
+    
+.pages2 {
+   text-align: center;
+   padding-top: 5px;
+}    
+
+
+ /* ***************************** responsive ******************************* */
+ /* Adjust Navbar for small screens */
+@media screen and (max-width: 768px) {
+    #navbar {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .search {
+      width: 100%;
+      flex-direction: column;
+      margin-top: 10px;
+    }
+  
+    .search-amazon {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    #search-logo {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .sign-in, .cart {
+      margin-top: 10px;
+    }
+  }
+  
+  /* Navbar for very small screens (mobile) */
+  @media screen and (max-width: 480px) {
+    #navbar {
+      font-size: 0.8rem;
+    }
+    
+    .panel {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .panel-log {
+      font-size: 1.5rem;
+    }
+  
+    .paragraph p {
+      margin: 5px;
+      font-size: 0.75rem;
+    }
+  
+    .shop-deals {
+      font-size: 0.75rem;
+    }
+  }
+
+  
+
+
+  /* Adjust Hero section for small screens */
+@media screen and (max-width: 768px) {
+    .hero {
+      height: 250px;
+      background-position: center;
+    }
+  
+    .hero-section {
+      width: 90%;
+      font-size: 0.75rem;
+    }
+  }
+
+  
+  /* Adjust product boxes layout for small screens */
+@media screen and (max-width: 768px) {
+    .shop-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .box {
+      width: 90%;
+      margin-bottom: 20px;
+      height: 350px;
+    }
+  
+    .box1-image {
+      width: 100%;
+      height: 200px;
+    }
+  }
+  
+  /* Adjust layout for mobile screens */
+  @media screen and (max-width: 480px) {
+    .box {
+      width: 100%;
+      margin: 10px 0;
+      height: 300px;
+    }
+  
+    .box1-image {
+      height: 180px;
+    }
+  }
+
+  /* Footer adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+    .footer2 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer2 ul {
+      margin-bottom: 20px;
+    }
+  
+    .footer3 {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .footer4 {
+      font-size: 0.6rem;
+      padding: 10px 0;
+    }
+  
+    .footer-logo {
+      width: 80px;
+      height: 40px;
+    }
+  }
+
+  /* General responsive adjustments */
+@media screen and (max-width: 768px) {
+    * {
+      box-sizing: border-box;
+    }
+  
+    body {
+      font-size: 0.9rem;
+    }
+  
+    h1, h2, h3 {
+      font-size: 1.2rem;
+    }
+  
+    p {
+      font-size: 0.85rem;
+    }
+  }
+  
